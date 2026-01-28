@@ -15,15 +15,14 @@ class Rectangle():
 
     # Create the "area_calculator" method
 
-    # YOUR CODE HERE
+    def area_calculator(self):
+        return float(self.width * self.height)
 
 
 
     # Create the "__eq__" method
-    # 
-    # Returns a boolean value
-
-    # YOUR CODE HERE
+    def __eq__(self, other):
+        return self.width == other.width and self.height == other.height
 
 
     
